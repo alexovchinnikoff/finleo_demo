@@ -1,11 +1,12 @@
 ### ** finleo_demo тестовые задания:**
-1. registration_checklost.cvs - чек-лист из 10 проверок для тестирования [этой функциональности](https://gitlab.com/users/sign_up)
+1. registration_checklist.md - чек-лист из 10 проверок для тестирования [этой функциональности](https://gitlab.com/users/sign_up)
 
-2. request.sql - SQL-запрос выводит из двух таблиц (users: id, name и orders: id, user_id, price):
+2. request.sql - SQL-запрос выводит имя пользователя и количество его заказов из двух таблиц:
+
+users | -id -name
+
+orders | -id -user_id -price
    
-- имя пользователя;
-  
-- количество его заказов.
   
 3. utils.py - функция, которая принимает список чисел и возвращает новый список, содержащий только четные числа.
    test_utils.py - тесты для проверки различных списков
